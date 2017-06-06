@@ -1,0 +1,25 @@
+### Step 1: Specification
+<!-- record your specification here -->
+input: mock video data
+output: all 5 videos from array populated in video list
+side-effects: none
+
+### Step 2: Justification
+<!-- record your justification here -->
+The video list is populated with the data from the mock dataset to prove the DOM will be properly populated when formatted data is passed
+
+### Step 3: Explanation
+<!-- record your explanation here -->
+Each video list
+
+### Step 4: Visualization
+<!-- record visualization by uploading a photo of your whiteboard to this folder -->
+
+### Step 5: Approximation
+<!-- record your approximation in the .js file -->
+
+### Step 6: Verification
+<!-- record verification here, or, if you use a whiteboard, upload a photo of your whiteboard to this folder -->
+
+### Step 7: Implementation
+<!-- record your implementation in the .js file -->

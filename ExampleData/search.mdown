@@ -1,0 +1,26 @@
+### Step 1: Specification
+<!-- record your specification here -->
+input: none
+output: mock YouTube search data
+side effects: change DOM to show 0th index in video player; all indexes will be displayed in video list
+
+### Step 2: Justification
+<!-- record your justification here -->
+This is done to ensure the business logic is validated with a static dataset
+
+### Step 3: Explanation
+<!-- record your explanation here -->
+A static mock search results dataset is loaded and displayed to meet the spec.
+
+### Step 4: Visualization
+<!-- record visualization by uploading a photo of your whiteboard to this folder -->
+
+### Step 5: Approximation
+<!-- record your approximation in the .js file -->
+// 
+
+### Step 6: Verification
+<!-- record verification here, or, if you use a whiteboard, upload a photo of your whiteboard to this folder -->
+
+### Step 7: Implementation
+<!-- record your implementation in the .js file -->

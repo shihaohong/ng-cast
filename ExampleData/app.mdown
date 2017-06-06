@@ -1,0 +1,31 @@
+### Step 1: Specification
+<!-- record your specification here -->
+input: array of objects containing video data
+output: one video showing in video player, 5 videos showing in video list
+side effects: none
+
+### Step 2: Justification
+<!-- record your justification here -->
+We are doing this to display the top result in the video player and add'l results (related videos) in the video list
+
+### Step 3: Explanation
+<!-- record your explanation here -->
+The first index in an array (an object in the dataset) will be displayed in the video player. All objects in the data set will be displayed in the video list.
+
+### Step 4: Visualization
+<!-- record visualization by uploading a photo of your whiteboard to this folder -->
+
+### Step 5: Approximation
+<!-- record your approximation in the .js file -->
+// at launch
+  // in video player, show mockdata[0]
+    // display video title and video description
+  // show all indexes of mock data in video list
+    // display video titles and abbreviated descriptions alongside the video list thumbnails
+
+### Step 6: Verification
+<!-- record verification here, or, if you use a whiteboard, upload a photo of your whiteboard to this folder -->
+
+
+### Step 7: Implementation
+<!-- record your implementation in the .js file -->
