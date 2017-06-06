@@ -1,6 +1,10 @@
 angular.module('video-player')
 
 .component('search', {
-  // TODO
-  templateUrl: "src/templates/search.html"
+  
+  controller: function(youTube) {
+    console.log(youTube);
+  },
+
+  templateUrl: 'src/templates/search.html'
 });

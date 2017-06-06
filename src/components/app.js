@@ -1,25 +1,14 @@
 angular.module('video-player')
 
 .component('app', {
-  // TODO
-  templateUrl: "src/templates/app.html",
-  controller: function() {
-    this.videos = window.exampleVideoData;
+  templateUrl: 'src/templates/app.html',
+  controller: function($window) {
+    this.videos = $window.exampleVideoData;
+    this.currentVideo = this.videos[0];
+    this.searchResults = function() {};
+    this.selectVideo = (video) => {
+      this.currentVideo = video;
+    };
+    
   }
 });
-
-
-/*
-.component('app', {
-  // TODO
-  templateUrl: "src/templates/app.html",
-  controller: ['$http', 
-    function VideoListController($http) {
-      var self = this;
-      
-      $http.get('src/data/exampleVideoData.js').then(function(response) {
-        self.videos = response.data;
-      });
-    }]
-});
-*/
