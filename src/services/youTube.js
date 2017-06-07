@@ -13,12 +13,11 @@ angular.module('video-player')
         key: apiKey
       }
     }).then(function successCallback(response) {
-      console.log('callback', callback);
-      console.log(response.data.items);
       callback(response.data.items);
 
     }, function errorCallback(response) {
       console.log('Error: GET request failed');
     });
   };
+  this.search = _.debounce(this.search, 500);
 });
